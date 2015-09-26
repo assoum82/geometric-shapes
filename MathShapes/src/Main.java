@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, Welcome to my homework, please choose a shape: ");
-        System.out.println("\n\n1: Square\n2: Rectangle\n3: Circle");
+        System.out.println("\n\n1: Square\n2: Rectangle\n3: Circle\n4: Triangle");
 
 
         Scanner scanner = new Scanner(System.in);
@@ -50,6 +50,10 @@ public class Main {
                 System.out.println("Surface: "+circle.surface());
                 System.out.println("Perimetre: "+circle.perimetre());
                 System.out.println("Generated for PI=3.14"); //You can modify the piValue variable on Cercle class for more/less PI precision
+                break;
+            case 4:
+                System.out.println("This aerea is not done yet :-( \n but at least the classes are ready");
+                /**Reserved for Triangles**/
                 break;
             default:
                 System.out.println("Please introduce a correct choice :)");break;
