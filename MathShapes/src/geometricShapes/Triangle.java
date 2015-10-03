@@ -35,7 +35,7 @@ abstract class Triangle extends GeometricShapes{
     }
 
     @Override
-    public double perimetre(){
+    public double perimetre(){// mais comment se calcule le perimetre ? 
         return 0;
     }
 }
